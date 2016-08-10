@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans';
+
+h1{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 120px;
+}
+
+/*nav start*/
+
+ul{
+  text-align: center;
+}
+
+ul li{
+  display: inline;
+  padding:20px;
+  color: #AC5244;
+}
+
+ul li a{
+  color: inherit;
+  font-family:'Open Sans', sans-serif;
+}
+/*nav end*/
+
+.container{
+  width: 1500px;
+  overflow-x: hidden;
+}
+
+
+.salon1{
+  background-image:url("../img/salon1.jpg");
+  height: 600px;
+  background-size: cover;
+  margin-top:30px;
+
+}
+.salon2{
+  background-image:url("../img/salon2.png");
+  height: 600px;
+  margin-top:30px;
+  width: calc(50% - 20px);
+  margin-left: 20px;
+
+}
+
+.salon3{
+  background-image:url("../img/salon3.jpg");
+  height: 500px;
+  margin-top:20px;
+}
