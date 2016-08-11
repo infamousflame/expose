@@ -64,11 +64,20 @@ nav ul li a:hover{
 .about-section .img-responsive{
   padding: 40px 0;
 }
+.becky{
+  padding-bottom: 55px;
+}
 .about-section .col-md-8{
   padding-top: 48px;
 }
-.about-section .col-md-8:first-of-type{
-  padding:0px;
+.expose .col-md-8:first-of-type{
+  padding:30px 0px;
+}
+.about-section{
+  padding-top: 60px;
+}
+.expose .img-responsive{
+  padding-top: 80px;
 }
 /*end about section*/
 /*footer start*/
