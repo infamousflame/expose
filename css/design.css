@@ -55,8 +55,22 @@ nav ul li a:hover{
   padding-top: 40px;
   font-size: 15px;
 }
+
+
 /*section end*/
 
+/*start about section*/
+
+.about-section .img-responsive{
+  padding: 40px 0;
+}
+.about-section .col-md-8{
+  padding-top: 48px;
+}
+.about-section .col-md-8:first-of-type{
+  padding:0px;
+}
+/*end about section*/
 /*footer start*/
 
 footer{
