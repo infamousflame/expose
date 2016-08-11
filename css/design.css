@@ -34,59 +34,26 @@ nav ul li a:hover{
 /*nav end*/
 
 /*section start*/
-.container{
-  width: 1500px;
-  overflow-x: hidden;
-}
 
-.grey{
-  background-color: rgba(10, 10, 10, .5);
-  height: 600px;
-  padding-left: 30px;
-}
-.grey p:first-of-type{
-  padding-left: 4px;
-}
-.salon1{
-  background-image:url("../img/salon1.jpg");
-  height: 600px;
+.back{
+  height:800px;
+  background-image: url("../img/Expose_pics/background-about.jpg");
   background-size: cover;
-  margin-top:30px;
-  color:white;
-  padding: 0;
-  font-size: 18px;
-}
-.text p{
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.grey h2{
-  font-size: 46px !important;
+  text-align: center;
+  color: white;
   padding-top:45px;
 }
 
 .text{
-  padding-top: 47px;
+  text-align: center;
 }
-
-.text p:last-of-type{
-  padding-left: 7px;
+.text h2{
+  font-size: 33px;
+  padding-bottom: 10px;
 }
-
-.salon2{
-  background-image:url("../img/salon2.png");
-  height: 600px;
-  margin-top:30px;
-  width: calc(50% - 20px);
-  margin-left: 20px;
-  padding: 0;
-
-}
-.salon3{
-  background-image:url("../img/salon3.jpg");
-  height: 500px;
-  margin-top:20px;
-  padding: 0;
-
+.inner-text{
+  padding-top: 40px;
+  font-size: 15px;
 }
 /*section end*/
 
