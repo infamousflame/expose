@@ -5,6 +5,12 @@
 *{
   font-family: 'Open Sans', sans-serif;
 }
+#title{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
 h1{
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -88,6 +94,7 @@ nav ul li a:hover{
 .about-section h2{
   font-family: 'Pacifico', cursive;
 }
+
 .about-section h3{
   font-family: 'Pacifico', cursive;
 }
