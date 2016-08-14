@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans';
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300';
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
 *{
   font-family: 'Open Sans', sans-serif;
 }
@@ -50,6 +52,7 @@ nav ul li a:hover{
 .text h2{
   font-size: 33px;
   padding-bottom: 10px;
+  font-family: 'Pacifico', cursive;
 }
 .inner-text{
   padding-top: 40px;
@@ -82,7 +85,74 @@ nav ul li a:hover{
 .expose .img-responsive{
   padding-top: 80px;
 }
+.about-section h2{
+  font-family: 'Pacifico', cursive;
+}
+.about-section h3{
+  font-family: 'Pacifico', cursive;
+}
 /*end about section*/
+
+/*start services section*/
+
+.col-md-4{
+  margin-top: 30px;
+  /*background-color: #4C2220;*/
+  /*color: white;*/
+}
+
+.icon{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:30px;
+}
+
+.center{
+  padding-left: 118px;
+  /*text-align: centesr;*/
+}
+.center h2{
+  font-size: 33px;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 20px;
+}
+.center h4{
+  margin: 20px 0;
+  padding-left: 3px;
+}
+.center p{
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.services .col-md-4{
+  padding: 20px;
+}
+/*end services section*/
+
+/*start conctact section*/
+
+.about h2{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+/*end contact section*/
+
+/*start testimonial section*/
+
+.testimonial h2{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+.testimonial-text{
+  margin-top: 30px;
+}
+/*end testimonial section*/
+
+
 /*footer start*/
 
 footer{
