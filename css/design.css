@@ -133,9 +133,31 @@ nav ul li a:hover{
 
 /*start conctact section*/
 
-.about h2{
+.contact h2{
   text-align: center;
   font-family: 'Pacifico', cursive;
+  padding-bottom: 45px;
+}
+.contact p{
+  font-size: 120%;0
+}
+.contact i{
+  color: black;
+  font-size: 130%;
+}
+.contact ul{
+  text-align: left;
+  padding: 0;
+  padding-top: 20px;
+}
+.contact ul li:first-child{
+  padding-left: 0;
+}
+.contact ul li{
+  padding-left: 80px;
+}
+.contact ul li a:hover i{
+  color: grey;
 }
 
 /*end contact section*/
