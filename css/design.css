@@ -186,7 +186,7 @@ nav ul li a:hover{
 
 footer{
   margin-top: 50px;
-  height: 205px;
+  /*height: 205px;*/
   background-color: #4C2220;
   color:#AF564F;
 }
@@ -219,6 +219,9 @@ footer .fa{
   padding:0;
   margin-top:50px;
   color: #8A443E;
+  margin-bottom: 0;
+  padding-bottom: 20px !important;
 }
+
 
 /*footer end*/
