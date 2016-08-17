@@ -10,12 +10,15 @@
   text-align: center;
   font-size: 35px;
   padding-bottom: 20px;
+  width: 30%;
+  margin: auto;
 }
 h1{
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 120px;
 }
+
 body{
   overflow-x: hidden;
 }
@@ -256,10 +259,7 @@ button{
   .glyphicon:hover{
     cursor: pointer;
   }
-  h1{
-    display: inline;
-    padding-left: 38vw;
-  }
+
   nav ul li{
     display: block;
     text-align: left;
@@ -269,9 +269,13 @@ button{
     width: 40vw;
     margin-top: 16vh;
     position: absolute;
+    margin-right: 10vw;
   }
   #hamburger{
     display: block;
+  }
+  .contact{
+    text-align: center;
   }
 }
 /*js nav end*/

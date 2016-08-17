@@ -4,23 +4,22 @@ $("nav ul").css("top", "0vh");
 
 function animateLeft(){
   $("nav ul").animate({
-    right: "+=40vw"
+    right: "+=50vw"
   });
   $("body").animate({
     margin:"0"
   });
   console.log("why");
+
 }
 
 function animateRight(){
   $("nav ul").animate({
-    right: "-=40vw"
+    right: "-=50vw"
   });
   $("body").animate({
-    margin:"0 0 0 40vw"
+    margin:"0 0 0 60vw"
   });
-
-
 }
 
 function nav(){
@@ -34,12 +33,7 @@ function nav(){
     console.log(toggle);
   }
 }
-function bodyClick(){
-  if(!toggle){
-    animateLeft();
-    toggle = true;
-  }
-}
+
 var toggleHam = false;
 function animation(){
   if(!toggleHam){
@@ -50,7 +44,17 @@ function animation(){
     toggleHam = false;
   }
 }
+function bodyClick(){
+  if(!toggle){
+    $(".line").removeClass("clicked");
 
+    animateLeft();
+    toggle = true;
+    toggleHam = !toggleHam;
+  }
+
+
+}
 
 $("#hamburger").on("click", animation);
 $("#hamburger").on("click", nav);
